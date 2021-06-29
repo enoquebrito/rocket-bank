@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RocketBank.Domain\RocketBank.Domain.csproj" />
+    <ProjectReference Include="..\RocketBank.Repository\RocketBank.Repository.csproj" />
+    <ProjectReference Include="..\RocketBank.Utils\RocketBank.Utils.csproj" />
+  </ItemGroup>
+
+</Project>
